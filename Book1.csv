@@ -1,0 +1,131 @@
+﻿dutyName,instanceType,partySize,level,minimumIL,patchReleased,difficulty,region,questLine
+Sastasha,Dungeon,4,15,0,2,Normal,La Noscea,MSQ
+The Tam-Tara Deepcroft,Dungeon,4,16,0,2,Normal,The Black Shroud,MSQ
+Copperbell Mines,Dungeon,4,17,0,2,Normal,Thanalan,MSQ
+Halatali,Dungeon,4,20,0,2,Normal,Thanalan,none
+The Thousand Maws of Toto-Rak,Dungeon,4,24,0,2,Normal,The Black Shroud,MSQ
+Haukke Manor,Dungeon,4,28,0,2,Normal,The Black Shroud,MSQ
+Brayflox's Longstop,Dungeon,4,32,0,2,Normal,La Noscea,MSQ
+The Sunken Temple of Qarn,Dungeon,4,35,0,2,Normal,Thanalan,none
+Cutter's Cry,Dungeon,4,38,0,2,Normal,Thanalan,none
+The Stone Vigil,Dungeon,4,41,0,2,Normal,Coerthas,MSQ
+Dzemael Darkhold,Dungeon,4,44,0,2,Normal,Coerthas,none
+The Aurum Vale,Dungeon,4,47,0,2,Normal,Coerthas,none
+Castrum Meridianum,Dungeon,4,50,42,2,Normal,Thanalan,MSQ
+The Praetorium,Dungeon,4,50,42,2,Normal,Thanalan,MSQ
+The Wanderer's Palace,Dungeon,4,50,45,2,Normal,La Noscea,none
+Amdapor Keep,Dungeon,4,50,45,2,Normal,The Black Shroud,none
+Pharos Sirius,Dungeon,4,50,48,2.1,Normal,La Noscea,none
+Copperbell Mines (Hard),Dungeon,4,50,48,2.1,Hard,Thanalan,none
+Haukke Manor (Hard),Dungeon,4,50,48,2.1,Hard,The Black Shroud,none
+The Lost City of Amdapor,Dungeon,4,50,55,2.2,Normal,The Black Shroud,none
+Halatali (Hard),Dungeon,4,50,55,2.2,Hard,Thanalan,none
+Brayflox's Longstop (Hard),Dungeon,4,50,55,2.2,Hard,La Noscea,none
+Hullbreaker Isle,Dungeon,4,50,70,2.3,Normal,La Noscea,none
+The Tam-Tara Deepcroft (Hard),Dungeon,4,50,70,2.3,Hard,The Black Shroud,none
+The Stony Vigil (Hard),Dungeon,4,50,70,2.3,Hard,Coerthas,none
+Snowcloak,Dungeon,4,50,80,2.4,Normal,Coerthas,MSQ
+Sastasha (Hard),Dungeon,4,50,80,2.4,Hard,La Noscea,none
+The Sunken Temple of Qarn (Hard),Dungeon,4,50,80,2.4,Hard,Thanalan,none
+The Keeper of the Lake,Dungeon,4,50,90,2.5,Normal,Mor Dhona,MSQ
+The Wanderer's Palace (Hard),Dungeon,4,50,90,2.5,Hard,La Noscea,none
+Amdapor Keep (Hard),Dungeon,4,50,90,2.5,Hard,The Black Shroud,none
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+The Bowl of Embers,Trial,4,20,0,2,Normal,Thanalan,MSQ
+The Navel,Trial,4,34,0,2,Normal,La Noscea,MSQ
+The Howling Eye,Trial,4,44,0,2,Normal,Coerthas,MSQ
+The Porta Decumana,Trial,4,50,42,2,Normal,Thanalan,MSQ
+The Bowl of Embers (Hard),Trial,8,50,49,2,Hard,Thanalan,Primal Quests
+The Howling Eye (Hard),Trial,8,50,52,2,Hard,Coerthas,Primal Quests
+The Navel (Hard),Trial,8,50,57,2,Hard,La Noscea,Primal Quests
+Thornmarch (Hard),Trial,8,50,54,2.1,Hard,The Black Shroud,MSQ
+A Relic Reborn: The Chimera,Trial,8,50,52,2.16,Normal,Coerthas,A Relic Reborn
+A Relic Reborn: The Hydra,Trial,8,50,52,2.16,Normal,Thanalan,A Relic Reborn
+The Whorleater (Hard),Trial,8,50,60,2.2,Hard,La Noscea,MSQ
+Battle on the Big Bridge,Trial,8,50,50,2.2,Normal,Coerthas,Hildibrand Adventures
+The Striking Tree (Hard),Trial,8,50,65,2.3,Hard,Black Shroud,MSQ
+The Akh Afah Ampitheatre (Hard),Trial,8,50,80,2.4,Hard,Coerthas,MSQ
+The Dragon's Neck,Trial,8,50,80,2.4,Normal,Thanalan,Hildibrand Adventures
+The Chrysalis,Trial,8,50,90,2.5,Normal,Mor Dhona,MSQ
+Battle in the Big Keep,Trial,8,50,90,2.5,Normal,Black Shroud,Hildibrand Adventures
+Urth's Fount,Trial,8,50,95,2.5,Normal,Black Shroud,Primal Quests
+The Minstrel's Ballad: Ultima's Bane,Trial,8,50,61,2.1,Extreme,Thanalan,none
+The Howling Eye (Extreme),Trial,8,50,65,2.1,Extreme,Coerthas,Primal Quests
+The Navel (Extreme),Trial,8,50,67,2.1,Extreme,La Noscea,Primal Quests
+The Bowl Of Embers (Extreme),Trial,8,50,70,2.1,Extreme,Thanalan,Primal Quests
+Thornmarch (Extreme),Trial,8,50,80,2.2,Extreme,The Black Shroud,Primal Quests
+The Whorleater (Extreme),Trial,8,50,80,2.2,Extreme,La Noscea,Primal Quests
+The Striking Tree (Extreme),Trial,8,50,85,2.3,Extreme,The Black Shroud,Primal Quests
+The Akh Afah Ampitheatre (Extreme),Trial,8,50,95,2.4,Extreme,Coerthas,Primal Quests
+Thok Ast Thok (Hard),Trial,8,53,0,3,Hard,Dravania,MSQ
+The Limitless Blue (Hard),Trial,8,57,0,3,Hard,Abalathia's Spine,MSQ
+The Singularity Reactor,Trial,8,60,142,3,Normal,Abalathia's Spine,MSQ
+Containment Bay S1T7,Trial,8,60,190,3.2,Normal,Abalathia's Spine,The Warring Triad
+The Final Steps of Faith,Trial,8,60,205,3.3,Normal,Coerthas,MSQ
+Containment Bay P1T6,Trial,8,60,220,3.4,Normal,Abalathia's Spine,The Warring Triad
+Containment Bay Z1T9,Trial,8,60,235,3.5,Normal,Abalathia's Spine,The Warring Triad
+The Limitless Blue (Extreme),Trial,8,60,165,3,Extreme,Abalathia's Spine,The Warring Triad
+Thok Ast Thok (Extreme),Trial,8,60,175,3,Extreme,Abalathia's Spine,The Warring Triad
+The Minstrel's Ballad: Thordan's Reign,Trial,8,60,190,3.1,Extreme,Abalathia's Spine,none
+Containment Bay S1T7 (Extreme),Trial,8,60,205,3.2,Extreme,Abalathia's Spine,The Warring Triad
+The Minstrel's Ballad: Nidhogg's Rage,Trial,8,60,220,3.3,Extreme,Coerthas,none
+Containment Bay P1T6 (Extreme),Trial,8,60,235,3.4,Extreme,Abalathia's Spine,The Warring Triad
+Containment Bay Z1T9 (Extreme),Trial,8,60,250,3.5,Extreme,Abalathia's Spine,The Warring Triad

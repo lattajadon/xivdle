@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>XIVdle</title>
+    </head>
+    <body>
+        <div class="group-guesses" id="groupGuessesMade">
+            <h1>XIVdle: The FFXIV Duty Guessing Game</h1>
+            <div id="groupGuessInput">
+                <form autcomplete="off" action="/action_page.php">
+                    <div class="autocomplete" style="width:300px;">
+                        <input id="guessEntry" type="text" name="myDuty" placeholder="Guess a Duty">
+                    </div>
+                </form>
+            </div>
+            <button onclick="guess()" id="guessButton">Guess</button>
+
+            <div class="lives-counter" id="livesDiv">LIVES REMAINING <span id="lives">❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</span></div>
+
+            <table class="guess-table" id="guessTable">
+                <thead>
+                    <tr>
+                        <th width="25%">Duty</th>
+                        <th width="10%">Duty Type</th>
+                        <th width="5%">Party Size</th>
+                        <th width="5%">Duty Level</th>
+                        <th width="5%">Item Level</th>
+                        <th width="5%">Release Patch</th>
+                        <th width="10%">Difficulty</th>
+                        <th width="20%">Region</th>
+                        <th width="15%">Quest Series</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Guesses Made Go Here -->
+                </tbody>
+            </table>
+        </div>
+
+        <script src="xivdle.js"></script>
+    </body>
+</html>
