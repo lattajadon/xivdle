@@ -78,7 +78,9 @@ function autocomplete(inp, arr) {
         a.setAttribute("class", "autocomplete-items");
         /* Append DIV element to autocomplete container */
         this.parentNode.appendChild(a);
-        arr.forEach(arrItem =>{
+        let autocompleteCount = 0;
+        for(let i = 0; i <= arr.length; i++){
+            arrItem = arr[i];
             if(arrItem.dutyName.substr(0, val.length).toLowerCase() == val.toLowerCase()){
                 b = document.createElement("DIV");
                 /* Make matching letter bold */
@@ -94,9 +96,12 @@ function autocomplete(inp, arr) {
                     closeAllLists();
                 });
                 a.appendChild(b);
+                autocompleteCount++;
+                if(autocompleteCount >= 10) break;
             }
-        })
+        }
     });
+
     function addActive(x){
         /* function to classify an item as active */
         if(!x) return false;
