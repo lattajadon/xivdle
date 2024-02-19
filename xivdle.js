@@ -80,7 +80,7 @@ function autocomplete(inp, arr) {
         this.parentNode.appendChild(a);
         let autocompleteCount = 0;
         for(let i = 0; i <= arr.length; i++){
-            arrItem = arr[i];
+            let arrItem = arr[i];
             if(arrItem.dutyName.substr(0, val.length).toLowerCase() == val.toLowerCase()){
                 b = document.createElement("DIV");
                 /* Make matching letter bold */
