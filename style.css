@@ -3,12 +3,25 @@
     font-family: "classicFFFont";
     src: url("fonts/FinalFantasyFont.woff") format('woff');
 }
+@font-face {
+    font-family: "eorzeanScript";
+    src: url("fonts/EorzeanFont.woff") format('woff');
+}
+@font-face {
+    font-family: myriadPro;
+    src: url("fonts/MyriadProRegular.woff") format('woff');
+}
 
 body{
     background-image:url('ClassicARRWallpaper.webp');
     background-size: cover;
     padding-top: 60px;
     padding-bottom: 40px;
+}
+.game-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -32,22 +45,58 @@ h1{
 /* CSS Styling for the Input and Autocomplete */
 .autocomplete{
     position: relative;
-    display: inline-block;
+    width:80%;
+    padding-right: 15px;
+    aspect-ratio: 1280/148;
+    background-image: url("images/emptyChatBubbleExtended.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-input {
-    border: 1px solid transparent;
-    height: 40px;
-    background-color: #f1f1f1;
-    padding: 10px;
-    font-size: 16px;
+
+form.search-form{
+    width:100%;
+    display: flex;
+    flex-direction: row;
 }
-input[type=text] {
-    background: url(emptyChatBubbleExtended.png) no-repeat;
-    height: 60px;
-    padding-left: 30px;
-    background-size: contain;
-    width: 100%;
+
+form.search-form input[type=text] {
+    padding-left: 5%;
+    background-color: transparent;
+    border: transparent;
+    height: 75%;
+    width: 90%;
+    position: absolute;
+    bottom: 5%;
+    font-size: 20px;
+    font-family: myriadPro;
 }
+form.search-form button{
+    padding: 20px;
+    width:10%;
+    border: 3px solid #8f6d07;
+    border-radius: 15%;
+
+    background: radial-gradient(#592421, #9b423d);
+    
+
+    color: #fecd62;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    font-size: larger;
+    font-family: eorzeanScript;
+
+    position: relative;
+    top: 8px;
+    
+    align-self: center;
+}
+form.search-form button:hover{
+    background-color: #592421;
+}
+.group-guess-input{
+    width:70%;
+}
+
 .autocomplete-items{
     position: absolute;
     border: 1px solid #d4d4d4;
@@ -64,7 +113,7 @@ input[type=text] {
     background-color: #fff;
     border-bottom: 1px solid #d4d4d4;
 }
-.autcomplete-items div:hover {
+.autocomplete-items div:hover {
     /*Change color when hovering item*/
     background-color: #e9e9e9;
 }
@@ -77,6 +126,7 @@ input[type=text] {
 /* CSS Styling for the Lives Counter*/
 .lives-counter{
     text-align: center;
+    flex-grow: 1;
     justify-content: center;
     font-size: 40px;
     font-weight: 900;
@@ -92,9 +142,11 @@ input[type=text] {
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
+    width: 80%;
 }
 
 .guess-table {
+    flex-grow:1;
     table-layout: fixed;
     background-color: transparent;
     background: transparent;
@@ -102,9 +154,7 @@ input[type=text] {
     padding: 15px;
     font-size: 0.9em;
     font-family: sans-serif;
-    width: 75%;
-    min-width: 400px;
-
+    width: 90%;
 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }

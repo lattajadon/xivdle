@@ -4,6 +4,7 @@ let dutyToGuess;
 let dutyToGuessIndex;
 let gameIsActive = true;
 let lives = 10;
+let epochDays;
 
 //Load Duty Data from JSON
 fetch('./duties.json')
@@ -33,14 +34,45 @@ function splitmix32(a) {
 }
 
 function initializeGame(){
+    let now = new Date();
+    epochMins = now/60000;
+    epochDays = Math.floor((epochMins-now.getTimezoneOffset())/1440);
     autocomplete(document.getElementById("guessEntry"), dutyList);
     dutyToGuessIndex = generateDutyOfTheDay();
     dutyToGuess = dutyList[dutyToGuessIndex];
+    checkIfPlayed();
+}
+
+function checkIfPlayed(){
+    if(localStorage.getItem(epochDays)){
+        gameIsActive = false;
+    }
+}
+
+function gameOver(victoryBool){
+    localStorage.setItem(epochDays, lives);
+    if(victoryBool){
+        setTimeout(function() {
+            alert("WINNER! Congratulations on guessing the correct duty!");
+            gameIsActive = false;
+            input.disabled = true;
+            guessButton.disabled = true;
+        }, 300);
+    }else{
+        setTimeout(function() {
+            alert("Game Over, please try again tomorrow! The correct Duty was " + dutyToGuess.dutyName);
+            gameIsActive = false;
+            input.disabled = true;
+            guessButton.disabled = true;
+        }, 300);
+    }
+}
+
+function displayGameOverScreen(){
+    // create a score screen popup
 }
 
 function generateDutyOfTheDay(){
-    let now = new Date();
-    let epochDays = Math.floor(now/8.64e7);
     console.log("Epoch Day: " + epochDays);
     let randomNumber = splitmix32(epochDays)();
     //check number of digits in the float randomNumber
@@ -51,7 +83,7 @@ function generateDutyOfTheDay(){
     let dutyNumber = randomNumber%dutyList.length
     console.log(dutyNumber)
     console.log(dutyList[dutyNumber].dutyName);
-    return dutyNumber;
+    return Math.floor(dutyNumber);
 }
 
 function updateLivesCount(){
@@ -64,6 +96,7 @@ function updateLivesCount(){
 }
 
 function autocomplete(inp, arr) {
+    /*https://www.w3schools.com/howto/howto_js_autocomplete.asp*/
     var currentFocus;
 
     inp.addEventListener("input", function(e) {
@@ -74,19 +107,24 @@ function autocomplete(inp, arr) {
         currentFocus = -1;
         /* Create a DIV element that contains values */
         a = document.createElement("DIV");
-        a.setAttribute("id", this.id + "autocomplete.list");
+        a.setAttribute("id", this.id + "autocomplete-list");
         a.setAttribute("class", "autocomplete-items");
         /* Append DIV element to autocomplete container */
         this.parentNode.appendChild(a);
         let autocompleteCount = 0;
-        for(let i = 0; i <= arr.length; i++){
+        for(let i = 0; i < arr.length; i++){
             let arrItem = arr[i];
-            if(arrItem.dutyName.substr(0, val.length).toLowerCase() == val.toLowerCase()){
+            //disallow comparing to difficulty
+
+            let doesInclude = arrItem.dutyName.toLowerCase().indexOf(val.toLowerCase());
+            if(doesInclude >= 0){
                 b = document.createElement("DIV");
                 /* Make matching letter bold */
-                b.innerHTML = "<strong>" + arrItem.dutyName.substr(0, val.length) +  "</strong>"
-                b.innerHTML += arrItem.dutyName.substr(val.length)
+                b.innerHTML = arrItem.dutyName.substr(0, doesInclude);
+                b.innerHTML += "<strong>" + arrItem.dutyName.substr(doesInclude, val.length) +  "</strong>";
+                b.innerHTML += arrItem.dutyName.substr(doesInclude + val.length);
 
+                console.log(b.innerHTML)
                 b.innerHTML += "<input type='hidden' value='" + arrItem + "'>";
                 /* execute function when someone clicks an item */
                 b.addEventListener("click", function(e) {
@@ -101,7 +139,27 @@ function autocomplete(inp, arr) {
             }
         }
     });
-
+    inp.addEventListener("keydown", function(e) {
+        var x = document.getElementById(this.id + "autocomplete-list");
+        if (x) x = x.getElementsByTagName("div");
+        if(e.keyCode == 40){
+            //arroy key down pressed
+            currentFocus++;
+            addActive(x);
+        }else if(e.keyCode == 38){
+            //up arrow is pressed
+            currentFocus--;
+            addActive(x);
+        }else if(e.keyCode == 13){
+            //enter key is pressed
+            //prevent form submission
+            e.preventDefault();
+            if(currentFocus > -1) {
+                //simulate click on focused item
+                if (x) x[currentFocus].click();
+            }
+        }
+    })
     function addActive(x){
         /* function to classify an item as active */
         if(!x) return false;
@@ -147,6 +205,8 @@ function checkGuessValidity(guessToCheck){
     }
     return true;
 }
+
+
 
 function guess(){
     if(!gameIsActive) return;
@@ -275,23 +335,13 @@ function guess(){
 
     //check overall answer correctness
     if(guessedDuty == dutyToGuess){
-        setTimeout(function() {
-            alert("WINNER! Congratulations on guessing the correct duty!");
-            gameIsActive = false;
-            input.disabled = true;
-            guessButton.disabled = true;
-        }, 300);
+        gameOver(true);
     }else{
         // remove a life for incorrect guess and check failstate
         lives--;
         updateLivesCount();
         if(lives <= 0) {
-            setTimeout(function() {
-                alert("Game Over, please try again tomorrow! The correct Duty was " + dutyToGuess.dutyName);
-                gameIsActive = false;
-                input.disabled = true;
-                guessButton.disabled = true;
-            }, 300);
+            gameOver(false);
         }
     }
     //reset input window
