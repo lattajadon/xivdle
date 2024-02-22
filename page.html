@@ -10,36 +10,39 @@
         <div class="header" id="myHeader">
             <h1>XIVdle: The FFXIV Duty Guessing Game</h1>
         </div>
-        <div class="group-guesses" id="groupGuessesMade">
-            <div id="groupGuessInput">
-                <form autocomplete="off" action="/action_page.php">
-                    <div class="autocomplete" style="width:600px;">
-                        <input id="guessEntry" type="text" name="myDuty" placeholder="Guess a Duty">
-                    </div>
-                </form>
+        <div class="game-body" id="myGameBody">
+            <div class="group-guesses" id="groupGuessesMade">
+
+                <div class="group-guess-input" id="my-group-guess-input">
+                    <form class="search-form" autocomplete="off">
+                        <div class="autocomplete">
+                            <input id="guessEntry" type="text" name="myGuess" placeholder="Guess a Duty">
+                        </div>
+                        <button type="submit" onclick="guess()" id="guessButton" class="guess-button" title="Guess" formaction="javascript:void(0);">Guess</button>
+                    </form>
+                </div>
+
+                <div class="lives-counter" id="livesDiv">LIVES REMAINING <span id="lives">❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</span></div>
+
+                <table class="guess-table" id="guessTable">
+                    <thead>
+                        <tr>
+                            <th width="25%">Duty</th>
+                            <th width="10%">Duty Type</th>
+                            <th width="5%">Party Size</th>
+                            <th width="5%">Duty Level</th>
+                            <th width="5%">Item Level</th>
+                            <th width="5%">Patch</th>
+                            <th width="10%">Difficulty</th>
+                            <th width="20%">Region</th>
+                            <th width="15%">Quest Series</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Guesses Made Go Here -->
+                    </tbody>
+                </table>
             </div>
-            <button onclick="guess()" id="guessButton">Guess</button>
-
-            <div class="lives-counter" id="livesDiv">LIVES REMAINING <span id="lives">❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</span></div>
-
-            <table class="guess-table" id="guessTable">
-                <thead>
-                    <tr>
-                        <th width="25%">Duty</th>
-                        <th width="10%">Duty Type</th>
-                        <th width="5%">Party Size</th>
-                        <th width="5%">Duty Level</th>
-                        <th width="5%">Item Level</th>
-                        <th width="5%">Release Patch</th>
-                        <th width="10%">Difficulty</th>
-                        <th width="20%">Region</th>
-                        <th width="15%">Quest Series</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Guesses Made Go Here -->
-                </tbody>
-            </table>
         </div>
 
         <script src="xivdle.js"></script>
