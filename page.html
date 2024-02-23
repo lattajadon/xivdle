@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
+    <!-- Modal for Results -->
+    <div id="resultsModal" class="results-modal">
+        <div class="modal-content">
+            <div id="modalHeader" class="modal-header">
+                <span class="modal-close">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <canvas id="modalChart"></canvas>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>XIVdle</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> 
     </head>
     <body>
         <div class="header" id="myHeader">
@@ -44,6 +60,7 @@
                 </table>
             </div>
         </div>
+        <button id="myBtn">Open Modal</button>
 
         <script src="xivdle.js"></script>
     </body>
