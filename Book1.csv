@@ -1,20 +1,20 @@
 ﻿dutyName,instanceType,partySize,level,minimumIL,patchReleased,difficulty,region,questLine
-Sastasha,Dungeon,4,15,0,2.0,Normal,La Noscea,MSQ
-The Tam-Tara Deepcroft,Dungeon,4,16,0,2.0,Normal,The Black Shroud,MSQ
-Copperbell Mines,Dungeon,4,17,0,2.0,Normal,Thanalan,MSQ
-Halatali,Dungeon,4,20,0,2.0,Normal,Thanalan,none
-The Thousand Maws of Toto-Rak,Dungeon,4,24,0,2.0,Normal,The Black Shroud,MSQ
-Haukke Manor,Dungeon,4,28,0,2.0,Normal,The Black Shroud,MSQ
-Brayflox's Longstop,Dungeon,4,32,0,2.0,Normal,La Noscea,MSQ
-The Sunken Temple of Qarn,Dungeon,4,35,0,2.0,Normal,Thanalan,none
-Cutter's Cry,Dungeon,4,38,0,2.0,Normal,Thanalan,none
-The Stone Vigil,Dungeon,4,41,0,2.0,Normal,Coerthas,MSQ
-Dzemael Darkhold,Dungeon,4,44,0,2.0,Normal,Coerthas,none
-The Aurum Vale,Dungeon,4,47,0,2.0,Normal,Coerthas,none
-Castrum Meridianum,Dungeon,4,50,42,2.0,Normal,Thanalan,MSQ
-The Praetorium,Dungeon,4,50,42,2.0,Normal,Thanalan,MSQ
-The Wanderer's Palace,Dungeon,4,50,45,2.0,Normal,La Noscea,none
-Amdapor Keep,Dungeon,4,50,45,2.0,Normal,The Black Shroud,none
+Sastasha,Dungeon,4,15,0,2,Normal,La Noscea,MSQ
+The Tam-Tara Deepcroft,Dungeon,4,16,0,2,Normal,The Black Shroud,MSQ
+Copperbell Mines,Dungeon,4,17,0,2,Normal,Thanalan,MSQ
+Halatali,Dungeon,4,20,0,2,Normal,Thanalan,none
+The Thousand Maws of Toto-Rak,Dungeon,4,24,0,2,Normal,The Black Shroud,MSQ
+Haukke Manor,Dungeon,4,28,0,2,Normal,The Black Shroud,MSQ
+Brayflox's Longstop,Dungeon,4,32,0,2,Normal,La Noscea,MSQ
+The Sunken Temple of Qarn,Dungeon,4,35,0,2,Normal,Thanalan,none
+Cutter's Cry,Dungeon,4,38,0,2,Normal,Thanalan,none
+The Stone Vigil,Dungeon,4,41,0,2,Normal,Coerthas,MSQ
+Dzemael Darkhold,Dungeon,4,44,0,2,Normal,Coerthas,none
+The Aurum Vale,Dungeon,4,47,0,2,Normal,Coerthas,none
+Castrum Meridianum,Dungeon,4,50,42,2,Normal,Thanalan,MSQ
+The Praetorium,Dungeon,4,50,42,2,Normal,Thanalan,MSQ
+The Wanderer's Palace,Dungeon,4,50,45,2,Normal,La Noscea,none
+Amdapor Keep,Dungeon,4,50,45,2,Normal,The Black Shroud,none
 Pharos Sirius,Dungeon,4,50,48,2.1,Normal,La Noscea,none
 Copperbell Mines (Hard),Dungeon,4,50,48,2.1,Hard,Thanalan,none
 Haukke Manor (Hard),Dungeon,4,50,48,2.1,Hard,The Black Shroud,none
@@ -30,14 +30,14 @@ The Sunken Temple of Qarn (Hard),Dungeon,4,50,80,2.4,Hard,Thanalan,none
 The Keeper of the Lake,Dungeon,4,50,90,2.5,Normal,Mor Dhona,MSQ
 The Wanderer's Palace (Hard),Dungeon,4,50,90,2.5,Hard,La Noscea,none
 Amdapor Keep (Hard),Dungeon,4,50,90,2.5,Hard,The Black Shroud,none
-The Dusk Vigil,Dungeon,4,51,100,3.0,Normal,Coerthas,none
-Sohm Al,Dungeon,4,53,105,3.0,Normal,Dravania,MSQ
-The Aery,Dungeon,4,55,110,3.0,Normal,Coerthas,MSQ
-The Vault,Dungeon,4,57,115,3.0,Normal,Coerthas,MSQ
-The Great Gubal Library,Dungeon,4,59,120,3.0,Normal,Dravania,MSQ
-The Aetherochemical Research Facility,Dungeon,4,60,142,3.0,Normal,Abalathia's Spine,MSQ
-Neverreap,Dungeon,4,60,145,3.0,Normal,Abalathia's Spine,none
-The Fractal Continuum,Dungeon,4,60,145,3.0,Normal,Abalathia's Spine,none
+The Dusk Vigil,Dungeon,4,51,100,3,Normal,Coerthas,none
+Sohm Al,Dungeon,4,53,105,3,Normal,Dravania,MSQ
+The Aery,Dungeon,4,55,110,3,Normal,Coerthas,MSQ
+The Vault,Dungeon,4,57,115,3,Normal,Coerthas,MSQ
+The Great Gubal Library,Dungeon,4,59,120,3,Normal,Dravania,MSQ
+The Aetherochemical Research Facility,Dungeon,4,60,142,3,Normal,Abalathia's Spine,MSQ
+Neverreap,Dungeon,4,60,145,3,Normal,Abalathia's Spine,none
+The Fractal Continuum,Dungeon,4,60,145,3,Normal,Abalathia's Spine,none
 Saint Mocianne's Arboretum,Dungeon,4,60,170,3.1,Normal,Dravania,none
 Pharos Sirius (Hard),Dungeon,4,60,170,3.1,Hard,La Noscea,none
 The Antitower,Dungeon,4,60,180,3.2,Normal,Dravania,MSQ
@@ -48,14 +48,14 @@ Xelphatol,Dungeon,4,60,210,3.4,Normal,Coerthas,MSQ
 The Great Gubal Library (Hard),Dungeon,4,60,210,3.4,Hard,Dravania,none
 Baelsar's Wall,Dungeon,4,60,230,3.5,Normal,The Black Shroud,MSQ
 Sohm Al (Hard),Dungeon,4,60,230,3.5,Hard,Dravania,none
-The Sirensong Sea,Dungeon,4,61,240,4.0,Normal,La Noscea,MSQ
-Shisui of the Violet Tides,Dungeon,4,63,245,4.0,Normal,Othard,none
-Bardam's Mettle,Dungeon,4,65,250,4.0,Normal,Othard,MSQ
-Doma Castle,Dungeon,4,67,255,4.0,Normal,Othard,MSQ
-Castrum Abania,Dungeon,4,69,260,4.0,Normal,Gyr Abania,MSQ
-Ala Mhigo,Dungeon,4,70,280,4.0,Normal,Gyr Abania,MSQ
-Kugane Castle,Dungeon,4,70,280,4.0,Normal,Othard,none
-The Temple of the Fist,Dungeon,4,70,300,4.0,Normal,Gyr Abania,none
+The Sirensong Sea,Dungeon,4,61,240,4,Normal,La Noscea,MSQ
+Shisui of the Violet Tides,Dungeon,4,63,245,4,Normal,Othard,none
+Bardam's Mettle,Dungeon,4,65,250,4,Normal,Othard,MSQ
+Doma Castle,Dungeon,4,67,255,4,Normal,Othard,MSQ
+Castrum Abania,Dungeon,4,69,260,4,Normal,Gyr Abania,MSQ
+Ala Mhigo,Dungeon,4,70,280,4,Normal,Gyr Abania,MSQ
+Kugane Castle,Dungeon,4,70,280,4,Normal,Othard,none
+The Temple of the Fist,Dungeon,4,70,300,4,Normal,Gyr Abania,none
 The Drowned City of Skalla,Dungeon,4,70,300,4.1,Normal,Gyr Abania,MSQ
 Hells' Lid,Dungeon,4,70,310,4.2,Normal,Othard,none
 The Fractal Continuum (Hard),Dungeon,4,70,310,4.2,Hard,Abalathia's Spine,none
@@ -63,39 +63,39 @@ The Swallow's Compass,Dungeon,4,70,330,4.3,Normal,Othard,none
 The Burn,Dungeon,4,70,340,4.4,Normal,Othard,MSQ
 Saint Mocianne's Arboretum (Hard),Dungeon,4,70,340,4.4,Hard,Dravania,none
 The Ghimlyt Dark,Dungeon,4,70,360,4.5,Normal,Gyr Abania,MSQ
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-The Bowl of Embers,Trial,4,20,0,2.0,Normal,Thanalan,MSQ
-The Navel,Trial,4,34,0,2.0,Normal,La Noscea,MSQ
-The Howling Eye,Trial,4,44,0,2.0,Normal,Coerthas,MSQ
-The Porta Decumana,Trial,4,50,42,2.0,Normal,Thanalan,MSQ
-The Bowl of Embers (Hard),Trial,8,50,49,2.0,Hard,Thanalan,Primal Quests
-The Howling Eye (Hard),Trial,8,50,52,2.0,Hard,Coerthas,Primal Quests
-The Navel (Hard),Trial,8,50,57,2.0,Hard,La Noscea,Primal Quests
+Holminster Switch,Dungeon,4,71,370,5,Normal,Norvrandt,MSQ
+Dohn Mheg,Dungeon,4,73,375,5,Normal,Norvrandt,MSQ
+The Qitana Revel,Dungeon,4,75,380,5,Normal,Norvrandt,MSQ
+Malikah's Well,Dungeon,4,77,385,5,Normal,Norvrandt,MSQ
+Mt. Gulg,Dungeon,4,79,390,5,Normal,Norvrandt,MSQ
+Amaurot,Dungeon,4,80,410,5,Normal,Norvrandt,MSQ
+The Twinning,Dungeon,4,80,410,5,Normal,Norvrandt,none
+Akadaemia Anyder,Dungeon,4,80,410,5,Normal,Norvrandt,none
+The Grand Cosmos,Dungeon,4,80,430,5.1,Normal,Norvrandt,MSQ
+Anamnesis Anyder,Dungeon,4,80,440,5.2,Normal,Norvrandt,MSQ
+The Heroes' Gauntlet,Dungeon,4,80,460,5.3,Normal,Norvrandt,MSQ
+Matoya's Relict,Dungeon,4,80,470,5.4,Normal,Norvrandt,MSQ
+Paglth'an,Dungeon,4,80,490,5.5,Normal,Thanalan,MSQ
+The Tower of Zot,Dungeon,4,81,500,6,Normal,Ilsabard,MSQ
+The Tower of Babil,Dungeon,4,83,505,6,Normal,Ilsabard,MSQ
+Vanaspati,Dungeon,4,85,510,6,Normal,Ilsabard,MSQ
+Ktisis Hyperboreia,Dungeon,4,87,515,6,Normal,The World Unsundered,MSQ
+The Aitiascope,Dungeon,4,89,520,6,Normal,The Northern Empty,MSQ
+The Dead Ends,Dungeon,4,90,540,6,Normal,The Sea of Stars,MSQ
+Smileton,Dungeon,4,90,540,6,Normal,The Sea of Stars,none
+The Stigma Dreamscape,Dungeon,4,90,540,6,Normal,The Sea of Stars,none
+Alzadaal's Legacy,Dungeon,4,90,560,6.1,Normal,Ilsabard,MSQ
+The Fell Court of Troia,Dungeon,4,90,575,6.2,Normal,???,MSQ
+Lapis Manalis,Dungeon,4,90,590,6.3,Normal,Ilsabard,MSQ
+The Aetherfont,Dungeon,4,90,605,6.4,Normal,The Northern Empty,MSQ
+The Lunar Subterrane,Dungeon,4,90,620,6.5,Normal,The Sea of Stars,MSQ
+The Bowl of Embers,Trial,4,20,0,2,Normal,Thanalan,MSQ
+The Navel,Trial,4,34,0,2,Normal,La Noscea,MSQ
+The Howling Eye,Trial,4,44,0,2,Normal,Coerthas,MSQ
+The Porta Decumana,Trial,4,50,42,2,Normal,Thanalan,MSQ
+The Bowl of Embers (Hard),Trial,8,50,49,2,Hard,Thanalan,Primal Quests
+The Howling Eye (Hard),Trial,8,50,52,2,Hard,Coerthas,Primal Quests
+The Navel (Hard),Trial,8,50,57,2,Hard,La Noscea,Primal Quests
 Thornmarch (Hard),Trial,8,50,54,2.1,Hard,The Black Shroud,MSQ
 A Relic Reborn: The Chimera,Trial,8,50,52,2.16,Normal,Coerthas,A Relic Reborn
 A Relic Reborn: The Hydra,Trial,8,50,52,2.16,Normal,Thanalan,A Relic Reborn
@@ -115,80 +115,72 @@ Thornmarch (Extreme),Trial,8,50,80,2.2,Extreme,The Black Shroud,Primal Quests
 The Whorleater (Extreme),Trial,8,50,80,2.2,Extreme,La Noscea,Primal Quests
 The Striking Tree (Extreme),Trial,8,50,85,2.3,Extreme,The Black Shroud,Primal Quests
 The Akh Afah Ampitheatre (Extreme),Trial,8,50,95,2.4,Extreme,Coerthas,Primal Quests
-Thok Ast Thok (Hard),Trial,8,53,0,3.0,Hard,Dravania,MSQ
-The Limitless Blue (Hard),Trial,8,57,0,3.0,Hard,Abalathia's Spine,MSQ
-The Singularity Reactor,Trial,8,60,142,3.0,Normal,Abalathia's Spine,MSQ
+Thok Ast Thok (Hard),Trial,8,53,0,3,Hard,Dravania,MSQ
+The Limitless Blue (Hard),Trial,8,57,0,3,Hard,Abalathia's Spine,MSQ
+The Singularity Reactor,Trial,8,60,142,3,Normal,Abalathia's Spine,MSQ
 Containment Bay S1T7,Trial,8,60,190,3.2,Normal,Abalathia's Spine,The Warring Triad
 The Final Steps of Faith,Trial,8,60,205,3.3,Normal,Coerthas,MSQ
 Containment Bay P1T6,Trial,8,60,220,3.4,Normal,Abalathia's Spine,The Warring Triad
 Containment Bay Z1T9,Trial,8,60,235,3.5,Normal,Abalathia's Spine,The Warring Triad
-The Limitless Blue (Extreme),Trial,8,60,165,3.0,Extreme,Abalathia's Spine,The Warring Triad
-Thok Ast Thok (Extreme),Trial,8,60,175,3.0,Extreme,Abalathia's Spine,The Warring Triad
+The Limitless Blue (Extreme),Trial,8,60,165,3,Extreme,Abalathia's Spine,The Warring Triad
+Thok Ast Thok (Extreme),Trial,8,60,175,3,Extreme,Abalathia's Spine,The Warring Triad
 The Minstrel's Ballad: Thordan's Reign,Trial,8,60,190,3.1,Extreme,Abalathia's Spine,none
 Containment Bay S1T7 (Extreme),Trial,8,60,205,3.2,Extreme,Abalathia's Spine,The Warring Triad
 The Minstrel's Ballad: Nidhogg's Rage,Trial,8,60,220,3.3,Extreme,Coerthas,none
 Containment Bay P1T6 (Extreme),Trial,8,60,235,3.4,Extreme,Abalathia's Spine,The Warring Triad
 Containment Bay Z1T9 (Extreme),Trial,8,60,250,3.5,Extreme,Abalathia's Spine,The Warring Triad
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-The Binding Coil of Bahamut - Turn 1,Raid,8,50,70,2.0,Normal,La Noscea,The Coils of Bahamut
-The Binding Coil of Bahamut - Turn 2,Raid,8,50,73,2.0,Normal,La Noscea,The Coils of Bahamut
-The Binding Coil of Bahamut - Turn 3,Raid,8,50,70,2.0,Normal,La Noscea,The Coils of Bahamut
-The Binding Coil of Bahamut - Turn 4,Raid,8,50,77,2.0,Normal,La Noscea,The Coils of Bahamut
-The Binding Coil of Bahamut - Turn 5,Raid,8,50,82,2.0,Normal,La Noscea,The Coils of Bahamut
+The Pool of Tribute,Trial,8,63,0,4,Normal,Othard,MSQ
+Emanation,Trial,8,67,0,4,Normal,Gyr Abania,MSQ
+The Royal Menagerie,Trial,8,70,280,4,Normal,Gyr Abania,MSQ
+The Jade Stoa,Trial,8,70,325,4.2,Normal,Othard,The Four Lords
+Castrum Fluminis,Trial,8,70,335,4.3,Normal,Othard,MSQ
+The Great Hunt,Trial,8,70,320,4.36,Normal,Othard,The Hunt for Rathalos
+Hells' Kier,Trial,8,70,355,4.4,Normal,Othard,The Four Lords
+The Wreath of Snakes,Trial,8,70,365,4.5,Normal,Othard,The Four Lords
+Kugane Ohashi,Trial,8,70,365,4.56,Normal,Hingashi,Hildibrand Adventures
+The Pool of Tribute (Extreme),Trial,8,70,300,4,Extreme,Othard,none
+Emanation (Extreme),Trial,8,70,300,4,Extreme,Gyr Abania,none
+The Minstrel's Ballad: Shinryu's Domain,Trial,8,70,320,4.1,Extreme,Gyr Abania,none
+The Jade Stoa (Extreme),Trial,8,70,340,4.2,Extreme,Othard,The Four Lords
+The Minstrel's Ballad: Tsukuyomi's Pain,Trial,8,70,350,4.3,Extreme,Othard,none
+The Great Hunt (Extreme),Trial,8,70,350,4.36,Extreme,Othard,The Hunt for Rathalos
+Hells' Kier (Extreme),Trial,8,70,370,4.4,Extreme,Othard,The Four Lords
+The Wreath of Snakes (Extreme),Trial,8,70,380,4.5,Extreme,Othard,The Four Lords
+The Dancing Plague,Trial,8,73,0,5,Normal,Norvrandt,MSQ
+The Crown of the Immaculate,Trial,8,79,0,5,Normal,Norvrandt,MSQ
+The Dying Grasp,Trial,8,80,410,5,Normal,Norvrandt,MSQ
+Cinder Drift,Trial,8,80,455,5.2,Normal,Gyr Abania,The Sorrow of Werlyt
+The Seat of Sacrifice,Trial,8,80,465,5.3,Normal,Norvrandt,MSQ
+Castrum Marinum,Trial,8,80,485,5.4,Normal,Thanalan,The Sorrow of Werlyt
+The Cloud Deck,Trial,8,80,495,5.5,Normal,???,The Sorrow of Werlyt
+The Dancing Plague (Extreme),Trial,8,80,430,5,Extreme,Norvrandt,none
+The Crown of the Immaculate (Extreme),Trial,8,80,430,5,Extreme,Norvrandt,none
+The Minstrel's Ballad: Hades's Elegy,Trial,8,80,450,5.1,Extreme,Norvrandt,none
+Cinder Drift (Extreme),Trial,8,80,470,5.2,Extreme,Gyr Abania,The Sorrow of Werlyt
+Memoria Misera (Extreme),Trial,8,80,470,5.25,Extreme,???,Resistance Weapons
+The Seat of Sacrifice (Extreme),Trial,8,80,480,5.3,Extreme,Norvrandt,none
+Castrum Marinum (Extreme),Trial,8,80,500,5.4,Extreme,Thanalan,The Sorrow of Werlyt
+The Cloud Deck (Extreme),Trial,8,80,510,5.5,Extreme,???,The Sorrow of Werlyt
+The Dark Inside,Trial,8,83,0,6,Normal,The Sea of Stars,MSQ
+The Mothercrystal,Trial,8,89,0,6,Normal,The Northern Empty,MSQ
+The Final Day,Trial,8,90,540,6,Normal,The Sea of Stars,MSQ
+Storm's Crown,Trial,8,90,585,6.2,Normal,???,MSQ
+Mount Ordeals,Trial,8,90,595,6.3,Normal,Ilsabard,MSQ
+The Voidcast Dias,Trial,8,90,615,6.4,Normal,???,MSQ
+The Abyssal Fracture,Trial,8,90,625,6.5,Normal,???,MSQ
+The Gilded Araya,Trial,8,90,625,6.55,Normal,Ilsabard,Hildibrand Adventures
+The Minstrel's Ballad: Zodiark's Fall,Trial,8,90,560,6,Extreme,The Sea of Stars,none
+The Minstrel's Ballad: Hydaelyn's Call,Trial,8,90,560,6,Extreme,The Northern Empty,none
+The Minstrel's Ballad: Endsinger's Aria,Trial,8,90,580,6.1,Extreme,The Sea of Stars,none
+Storm's Crown (Extreme),Trial,8,90,600,6.2,Extreme,???,none
+Mount Ordeals (Extreme),Trial,8,90,610,6.3,Extreme,Ilsabard,none
+The Voidcast Dias (Extreme),Trial,8,90,630,6.4,Extreme,???,none
+The Abyssal Fracture (Extreme),Trial,8,90,640,6.5,Extreme,???,none
+The Binding Coil of Bahamut - Turn 1,Raid,8,50,70,2,Normal,La Noscea,The Coils of Bahamut
+The Binding Coil of Bahamut - Turn 2,Raid,8,50,73,2,Normal,La Noscea,The Coils of Bahamut
+The Binding Coil of Bahamut - Turn 3,Raid,8,50,70,2,Normal,La Noscea,The Coils of Bahamut
+The Binding Coil of Bahamut - Turn 4,Raid,8,50,77,2,Normal,La Noscea,The Coils of Bahamut
+The Binding Coil of Bahamut - Turn 5,Raid,8,50,82,2,Normal,La Noscea,The Coils of Bahamut
 The Second Coil of Bahamut - Turn 1,Raid,8,50,90,2.2,Normal,The Black Shroud,The Coils of Bahamut
 The Second Coil of Bahamut - Turn 2,Raid,8,50,95,2.2,Normal,The Black Shroud,The Coils of Bahamut
 The Second Coil of Bahamut - Turn 3,Raid,8,50,100,2.2,Normal,The Black Shroud,The Coils of Bahamut
@@ -201,27 +193,119 @@ The Final Coil of Bahamut - Turn 1,Raid,8,50,110,2.4,Normal,Thanalan,The Coils o
 The Final Coil of Bahamut - Turn 2,Raid,8,50,115,2.4,Normal,Thanalan,The Coils of Bahamut
 The Final Coil of Bahamut - Turn 3,Raid,8,50,120,2.4,Normal,Thanalan,The Coils of Bahamut
 The Final Coil of Bahamut - Turn 4,Raid,8,50,123,2.4,Normal,Thanalan,The Coils of Bahamut
-Alexander - The Fist of the Father,Raid,8,60,,3.0,Normal,Dravania,Alexander
-Alexander - The Cuff of the Father,Raid,8,60,,3.0,Normal,Dravania,Alexander
-Alexander - The Arm of the Father,Raid,8,60,,3.0,Normal,Dravania,Alexander
-Alexander - The Burden of the Father,Raid,8,60,,3.0,Normal,Dravania,Alexander
-Alexander - The Fist of the Father (Savage),Raid,8,60,,3.05,Savage,Dravania,Alexander
-Alexander - The Cuff of the Father (Savage),Raid,8,60,,3.05,Savage,Dravania,Alexander
-Alexander - The Arm of the Father (Savage),Raid,8,60,,3.05,Savage,Dravania,Alexander
-Alexander - The Burden of the Father (Savage),Raid,8,60,,3.05,Savage,Dravania,Alexander
-Alexander - The Fist of the Son,Raid,8,60,,3.2,Normal,Dravania,Alexander
-Alexander - The Cuff of the Son,Raid,8,60,,3.2,Normal,Dravania,Alexander
-Alexander - The Arm of the Son,Raid,8,60,,3.2,Normal,Dravania,Alexander
-Alexander - The Burden of the Son,Raid,8,60,,3.2,Normal,Dravania,Alexander
-Alexander - The Fist of the Son (Savage),Raid,8,60,,3.2,Savage,Dravania,Alexander
-Alexander - The Cuff of the Son (Savage),Raid,8,60,,3.2,Savage,Dravania,Alexander
-Alexander - The Arm of the Son (Savage),Raid,8,60,,3.2,Savage,Dravania,Alexander
-Alexander - The Burden of the Son (Savage),Raid,8,60,,3.2,Savage,Dravania,Alexander
-Alexander  - The Eyes of the Creator,Raid,8,60,,3.4,Normal,Dravania,Alexander
-Alexander - The Breath of the Creator,Raid,8,60,,3.4,Normal,Dravania,Alexander
-Alexander - The Heart of the Creator,Raid,8,60,,3.4,Normal,Dravania,Alexander
-Alexander - The Soul of the Creator,Raid,8,60,,3.4,Normal,Dravania,Alexander
-Alexander  - The Eyes of the Creator (Savage),Raid,8,60,,3.4,Savage,Dravania,Alexander
-Alexander - The Breath of the Creator (Savage),Raid,8,60,,3.4,Savage,Dravania,Alexander
-Alexander - The Heart of the Creator (Savage),Raid,8,60,,3.4,Savage,Dravania,Alexander
-Alexander - The Soul of the Creator (Savage),Raid,8,60,,3.4,Savage,Dravania,Alexander
+Alexander - The Fist of the Father,Raid,8,60,170,3,Normal,Dravania,Alexander
+Alexander - The Cuff of the Father,Raid,8,60,170,3,Normal,Dravania,Alexander
+Alexander - The Arm of the Father,Raid,8,60,170,3,Normal,Dravania,Alexander
+Alexander - The Burden of the Father,Raid,8,60,170,3,Normal,Dravania,Alexander
+Alexander - The Fist of the Father (Savage),Raid,8,60,190,3.05,Savage,Dravania,Alexander
+Alexander - The Cuff of the Father (Savage),Raid,8,60,195,3.05,Savage,Dravania,Alexander
+Alexander - The Arm of the Father (Savage),Raid,8,60,200,3.05,Savage,Dravania,Alexander
+Alexander - The Burden of the Father (Savage),Raid,8,60,205,3.05,Savage,Dravania,Alexander
+Alexander - The Fist of the Son,Raid,8,60,200,3.2,Normal,Dravania,Alexander
+Alexander - The Cuff of the Son,Raid,8,60,200,3.2,Normal,Dravania,Alexander
+Alexander - The Arm of the Son,Raid,8,60,200,3.2,Normal,Dravania,Alexander
+Alexander - The Burden of the Son,Raid,8,60,200,3.2,Normal,Dravania,Alexander
+Alexander - The Fist of the Son (Savage),Raid,8,60,215,3.2,Savage,Dravania,Alexander
+Alexander - The Cuff of the Son (Savage),Raid,8,60,220,3.2,Savage,Dravania,Alexander
+Alexander - The Arm of the Son (Savage),Raid,8,60,225,3.2,Savage,Dravania,Alexander
+Alexander - The Burden of the Son (Savage),Raid,8,60,225,3.2,Savage,Dravania,Alexander
+Alexander  - The Eyes of the Creator,Raid,8,60,230,3.4,Normal,Dravania,Alexander
+Alexander - The Breath of the Creator,Raid,8,60,230,3.4,Normal,Dravania,Alexander
+Alexander - The Heart of the Creator,Raid,8,60,230,3.4,Normal,Dravania,Alexander
+Alexander - The Soul of the Creator,Raid,8,60,230,3.4,Normal,Dravania,Alexander
+Alexander  - The Eyes of the Creator (Savage),Raid,8,60,245,3.4,Savage,Dravania,Alexander
+Alexander - The Breath of the Creator (Savage),Raid,8,60,250,3.4,Savage,Dravania,Alexander
+Alexander - The Heart of the Creator (Savage),Raid,8,60,255,3.4,Savage,Dravania,Alexander
+Alexander - The Soul of the Creator (Savage),Raid,8,60,255,3.4,Savage,Dravania,Alexander
+Deltascape V1.0,Raid,8,70,295,4.01,Normal,Gyr Abania,Omega
+Deltascape V2.0,Raid,8,70,295,4.01,Normal,Gyr Abania,Omega
+Deltascape V3.0,Raid,8,70,295,4.01,Normal,Gyr Abania,Omega
+Deltascape V4.0,Raid,8,70,295,4.01,Normal,Gyr Abania,Omega
+Deltascape V1.0 (Savage),Raid,8,70,310,4.05,Savage,Gyr Abania,Omega
+Deltascape V2.0 (Savage),Raid,8,70,315,4.05,Savage,Gyr Abania,Omega
+Deltascape V3.0 (Savage),Raid,8,70,320,4.05,Savage,Gyr Abania,Omega
+Deltascape V4.0 (Savage),Raid,8,70,320,4.05,Savage,Gyr Abania,Omega
+The Unending Coil of Bahamut (Ultimate),Raid,8,70,345,4.11,Ultimate,La Noscea,none
+Sigmascape V1.0,Raid,8,70,325,4.2,Normal,Gyr Abania,Omega
+Sigmascape V2.0,Raid,8,70,325,4.2,Normal,Gyr Abania,Omega
+Sigmascape V3.0,Raid,8,70,325,4.2,Normal,Gyr Abania,Omega
+Sigmascape V4.0,Raid,8,70,325,4.2,Normal,Gyr Abania,Omega
+Sigmascape V1.0 (Savage),Raid,8,70,340,4.2,Savage,Gyr Abania,Omega
+Sigmascape V2.0 (Savage),Raid,8,70,345,4.2,Savage,Gyr Abania,Omega
+Sigmascape V3.0 (Savage),Raid,8,70,350,4.2,Savage,Gyr Abania,Omega
+Sigmascape V4.0 (Savage),Raid,8,70,350,4.2,Savage,Gyr Abania,Omega
+The Weapon's Refrain (Ultimate),Raid,8,70,375,4.31,Ultimate,Ultimacy,none
+Alphascape V1.0,Raid,8,70,355,4.4,Normal,Gyr Abania,Omega
+Alphascape V2.0,Raid,8,70,355,4.4,Normal,Gyr Abania,Omega
+Alphascape V3.0,Raid,8,70,355,4.4,Normal,Gyr Abania,Omega
+Alphascape V4.0,Raid,8,70,355,4.4,Normal,Gyr Abania,Omega
+Alphascape V1.0 (Savage),Raid,8,70,370,4.4,Savage,Gyr Abania,Omega
+Alphascape V2.0 (Savage),Raid,8,70,375,4.4,Savage,Gyr Abania,Omega
+Alphascape V3.0 (Savage),Raid,8,70,380,4.4,Savage,Gyr Abania,Omega
+Alphascape V4.0 (Savage),Raid,8,70,380,4.4,Savage,Gyr Abania,Omega
+Eden's Gate: Resurrection,Raid,8,80,425,5.01,Normal,Norvrandt,Eden
+Eden's Gate: Descent,Raid,8,80,425,5.01,Normal,Norvrandt,Eden
+Eden's Gate: Inundation,Raid,8,80,425,5.01,Normal,Norvrandt,Eden
+Eden's Gate: Sepulture,Raid,8,80,425,5.01,Normal,Norvrandt,Eden
+Eden's Gate: Resurrection (Savage),Raid,8,80,440,5.05,Savage,Norvrandt,Eden
+Eden's Gate: Descent (Savage),Raid,8,80,445,5.05,Savage,Norvrandt,Eden
+Eden's Gate: Inundation (Savage),Raid,8,80,450,5.05,Savage,Norvrandt,Eden
+Eden's Gate: Sepulture (Savage),Raid,8,80,450,5.05,Savage,Norvrandt,Eden
+The Epic of Alexander (Ultimate),Raid,8,80,475,5.11,Ultimate,Liminal Space,none
+Eden's Verse: Fulmination,Raid,8,80,455,5.2,Normal,Norvrandt,Eden
+Eden's Verse: Furor,Raid,8,80,455,5.2,Normal,Norvrandt,Eden
+Eden's Verse: Iconoclasm,Raid,8,80,455,5.2,Normal,Norvrandt,Eden
+Eden's Verse: Refulgence,Raid,8,80,455,5.2,Normal,Norvrandt,Eden
+Eden's Verse: Fulmination (Savage),Raid,8,80,470,5.2,Savage,Norvrandt,Eden
+Eden's Verse: Furor (Savage),Raid,8,80,475,5.2,Savage,Norvrandt,Eden
+Eden's Verse: Iconoclasm (Savage),Raid,8,80,480,5.2,Savage,Norvrandt,Eden
+Eden's Verse: Refulgence (Savage),Raid,8,80,480,5.2,Savage,Norvrandt,Eden
+Eden's Promise: Umbra,Raid,8,80,485,5.4,Normal,Norvrandt,Eden
+Eden's Promise: Litany,Raid,8,80,485,5.4,Normal,Norvrandt,Eden
+Eden's Promise: Anamorphosis,Raid,8,80,485,5.4,Normal,Norvrandt,Eden
+Eden's Promise: Eternity,Raid,8,80,485,5.4,Normal,Norvrandt,Eden
+Eden's Promise: Umbra (Savage),Raid,8,80,500,5.4,Savage,Norvrandt,Eden
+Eden's Promise: Litany (Savage),Raid,8,80,505,5.4,Savage,Norvrandt,Eden
+Eden's Promise: Anamorphosis (Savage),Raid,8,80,510,5.4,Savage,Norvrandt,Eden
+Eden's Promise: Eternity (Savage),Raid,8,80,510,5.4,Savage,Norvrandt,Eden
+Asphodelos: The First Circle,Raid,8,90,565,6.01,Normal,The World Unsundered,Pandaemonium
+Asphodelos: The Second Circle,Raid,8,90,565,6.01,Normal,The World Unsundered,Pandaemonium
+Asphodelos: The Third Circle,Raid,8,90,565,6.01,Normal,The World Unsundered,Pandaemonium
+Asphodelos: The Fourth Circle,Raid,8,90,565,6.01,Normal,The World Unsundered,Pandaemonium
+Asphodelos: The First Circle (Savage),Raid,8,90,570,6.05,Savage,The World Unsundered,Pandaemonium
+Asphodelos: The Second Circle (Savage),Raid,8,90,575,6.05,Savage,The World Unsundered,Pandaemonium
+Asphodelos: The Third Circle (Savage),Raid,8,90,580,6.05,Savage,The World Unsundered,Pandaemonium
+Asphodelos: The Fourth Circle (Savage),Raid,8,90,580,6.05,Savage,The World Unsundered,Pandaemonium
+Dragonsong's Reprise (Ultimate),Raid,8,90,605,6.11,Ultimate,Coerthas,none
+Abyssos: The Fifth Circle,Raid,8,90,585,6.2,Normal,The World Unsundered,Pandaemonium
+Abyssos: The Sixth Circle,Raid,8,90,585,6.2,Normal,The World Unsundered,Pandaemonium
+Abyssos: The Seventh Circle,Raid,8,90,585,6.2,Normal,The World Unsundered,Pandaemonium
+Abyssos: The Eighth Circle,Raid,8,90,585,6.2,Normal,The World Unsundered,Pandaemonium
+Abyssos: The Fifth Circle (Savage),Raid,8,90,600,6.2,Savage,The World Unsundered,Pandaemonium
+Abyssos: The Sixth Circle (Savage),Raid,8,90,605,6.2,Savage,The World Unsundered,Pandaemonium
+Abyssos: The Seventh Circle (Savage),Raid,8,90,610,6.2,Savage,The World Unsundered,Pandaemonium
+Abyssos: The Eighth Circle (Savage),Raid,8,90,610,6.2,Savage,The World Unsundered,Pandaemonium
+The Omega Protocol (Ultimate),Raid,8,90,635,6.31,Ultimate,The Interdimensional Rift,none
+Anabaseios: The Ninth Circle,Raid,8,90,615,6.4,Normal,The Northern Empty,Pandaemonium
+Anabaseios: The Tenth Circle,Raid,8,90,615,6.4,Normal,The Northern Empty,Pandaemonium
+Anabaseios: The Eleventh Circle,Raid,8,90,615,6.4,Normal,The Northern Empty,Pandaemonium
+Anabaseios: The Twelfth Circle,Raid,8,90,615,6.4,Normal,The Northern Empty,Pandaemonium
+Anabaseios: The Ninth Circle (Savage),Raid,8,90,630,6.4,Savage,The Northern Empty,Pandaemonium
+Anabaseios: The Tenth Circle (Savage),Raid,8,90,635,6.4,Savage,The Northern Empty,Pandaemonium
+Anabaseios: The Eleventh Circle (Savage),Raid,8,90,640,6.4,Savage,The Northern Empty,Pandaemonium
+Anabaseios: The Twelfth Circle (Savage),Raid,8,90,640,6.4,Savage,The Northern Empty,Pandaemonium
+The Labyrinth of the Ancients,Raid,24,50,50,2.1,Normal,Mor Dhona,The Crystal Tower
+Syrcus Tower,Raid,24,50,70,2.3,Normal,Mor Dhona,The Crystal Tower
+The World of Darkness,Raid,24,50,90,2.5,Normal,Mor Dhona,The Crystal Tower
+The Void Ark,Raid,24,60,475,3.1,Normal,Abalathia's Spine,Shadow of Mhach
+The Weeping City of Mhach,Raid,24,60,205,3.3,Normal,Mor Dhona,Shadow of Mhach
+Dun Scaith,Raid,24,60,235,3.5,Normal,Abalathia's Spine,Shadow of Mhach
+The Royal City of Rabanastre,Raid,24,70,305,4.1,Normal,???,Return to Ivalice
+The Ridorana Lighthouse,Raid,24,70,335,4.3,Normal,???,Return to Ivalice
+The Orbonne Monastery,Raid,24,70,365,4.5,Normal,???,Return to Ivalice
+The Copied Factory,Raid,24,80,435,5.1,Normal,Norvrandt,YoRHa: Dark Apocalypse
+The Puppets' Bunker,Raid,24,80,465,5.3,Normal,Norvrandt,YoRHa: Dark Apocalypse
+The Tower at Paradigm's Breach,Raid,24,80,495,5.5,Normal,Norvrandt,YoRHa: Dark Apocalypse
+Aglaia,Raid,24,90,565,6.1,Normal,???,Myths of the Realm
+Euphrosyne,Raid,24,90,595,6.3,Normal,???,Myths of the Realm
+Thaleia,Raid,24,90,625,6.5,Normal,???,Myths of the Realm
