@@ -15,7 +15,7 @@ var modal = document.getElementById("resultsModal");
 var span = document.getElementsByClassName("modal-close")[0];
 
 //Load Duty Data from JSON
-fetch('./duties.json')
+fetch('duties.json')
     .then((response) => {
         if(!response.ok){
             throw new Error('Response not ok: ' + response.statusText);
@@ -49,7 +49,7 @@ function initializeGame(){
     epochDays = Math.floor((epochMins-now.getTimezoneOffset())/1440);
     ///initialize guessing and duty of the day
     autocomplete(document.getElementById("guessEntry"), dutyList);
-    dutyToGuessIndex = generateDutyOfTheDay();
+    dutyToGuessIndex = Math.floor(generateDutyOfTheDay());
     dutyToGuess = dutyList[dutyToGuessIndex];
     //check for user score history
     checkUserScores();
@@ -100,7 +100,10 @@ function generateStatChart(){
     new Chart(resultsChart, {
         type: "bar",
         data: {
-            labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+            labels: [{
+                label: "# of Guesses",
+                data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                }],
             datasets: [{
                 label: "# of Wins",
                 data: [userScoresRecord[0], userScoresRecord[1],userScoresRecord[2], userScoresRecord[3], userScoresRecord[4],
@@ -126,11 +129,6 @@ function generateStatChart(){
 }
 
 // Close and Open Modal
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-btn.onclick = function(){
-    
-}
 span.onclick =  function(){
     modal.style.display = "none";
 }
@@ -147,11 +145,9 @@ function generateDutyOfTheDay(){
     var length = (randomNumber + '').replace('.', '').length;
     //multiply float randomNumber by 10^x where x is the number of digits minus one, this converts the number to a integer
     randomNumber = randomNumber*Math.pow(10, length-1)
-    console.log(randomNumber)
     let dutyNumber = randomNumber%dutyList.length
-    console.log(dutyNumber)
-    console.log(dutyList[dutyNumber].dutyName);
-    return Math.floor(dutyNumber);
+    dutyNumber = Math.round(dutyNumber);
+    return dutyNumber;
 }
 
 function updateLivesCount(){
@@ -301,6 +297,16 @@ function guess(){
         //assign basic answerCell class to new cells
         cell.classList.add("answerCell");
         cell.innerText = guessedDuty[key];
+        if(key == 'dutyName'){
+            const correctDutyName = dutyToGuess.dutyName;
+            const guessedDutyName = guessedDuty.dutyName;
+            if(correctDutyName == guessedDutyName){
+                cell.classList.add("correctAnswerCell")
+            }else{
+                cell.classList.add("incorrectAnswerCell");
+            }
+            return;
+        }
         if(key == 'instanceType'){
             const correctInstanceType = dutyToGuess.instanceType;
             const guessedInstanceType = guessedDuty.instanceType;
