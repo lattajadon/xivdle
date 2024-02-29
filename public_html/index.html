@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
+    <!-- Modal for Results -->
+    <div id="resultsModal" class="results-modal">
+        <div class="modal-content">
+            <div id="modalHeader" class="modal-header">
+                <h2>Modal Header</h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <canvas id="modalChart"></canvas>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>XIVdle</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> 
     </head>
     <body>
         <div class="header" id="myHeader">
-            <h1>XIVdle: The FFXIV Duty Guessing Game</h1>
+            <h1>XIVdle: The FFXIV Duty Guessing Game</h1> <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+            <div class="kofi-button">
+                <script type='text/javascript'>
+                    kofiwidget2.init('Support Me on Ko-fi', '#2856e0', 'F1F7USVCQ');
+                    kofiwidget2.draw();
+                </script> 
+            </div>
         </div>
         <div class="game-body" id="myGameBody">
             <div class="group-guesses" id="groupGuessesMade">
@@ -44,7 +66,10 @@
                 </table>
             </div>
         </div>
-
-        <script src="xivdle.js"></script>
+        <div class="footer">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2089877298975735"
+     crossorigin="anonymous"></script>
+        </div>
+        <script src="xivdle_daily.js"></script>
     </body>
 </html>

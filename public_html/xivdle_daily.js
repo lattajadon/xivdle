@@ -6,8 +6,16 @@ let gameIsActive = true;
 let lives = 10;
 let epochDays;
 
+//user score dictionary
+let userScoresRecord;
+
+//get ui elements
+const resultsChart = document.getElementById("modalChart");
+var modal = document.getElementById("resultsModal");
+var span = document.getElementsByClassName("modal-close")[0];
+
 //Load Duty Data from JSON
-fetch('./duties.json')
+fetch('duties.json')
     .then((response) => {
         if(!response.ok){
             throw new Error('Response not ok: ' + response.statusText);
@@ -34,42 +42,100 @@ function splitmix32(a) {
 }
 
 function initializeGame(){
+    //initialize date
     let now = new Date();
     epochMins = now/60000;
+    //account for local timezone
     epochDays = Math.floor((epochMins-now.getTimezoneOffset())/1440);
+    ///initialize guessing and duty of the day
     autocomplete(document.getElementById("guessEntry"), dutyList);
-    dutyToGuessIndex = generateDutyOfTheDay();
+    dutyToGuessIndex = Math.floor(generateDutyOfTheDay());
     dutyToGuess = dutyList[dutyToGuessIndex];
+    //check for user score history
+    checkUserScores();
+    //check if user has already played today
     checkIfPlayed();
+}
+
+function checkUserScores(){
+    if(localStorage.getItem("userScores")){
+        userScoresRecord = JSON.parse(localStorage.getItem("userScores"));
+    }else{
+        userScoresRecord = {0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0};
+    }
 }
 
 function checkIfPlayed(){
     if(localStorage.getItem(epochDays)){
         gameIsActive = false;
+        document.getElementById("modalHeader").innerHTML = "Thank you for playing today! Your score was: " + localStorage.getItem(epochDays);
+        //score chart
+        generateStatChart();
+        modal.style.display = "block";
     }
 }
 
 function gameOver(victoryBool){
     localStorage.setItem(epochDays, lives);
+    userScoresRecord[lives]++;
+    localStorage.setItem("userScores", JSON.stringify(userScoresRecord))
     if(victoryBool){
-        setTimeout(function() {
-            alert("WINNER! Congratulations on guessing the correct duty!");
-            gameIsActive = false;
-            input.disabled = true;
-            guessButton.disabled = true;
-        }, 300);
+        document.getElementById("modalHeader").innerHTML = "Duty Complete! You have guessed the correct duty with " + lives + " lives remaining!"
+        //score chart
+        generateStatChart();
+        modal.style.display = "block";
     }else{
-        setTimeout(function() {
-            alert("Game Over, please try again tomorrow! The correct Duty was " + dutyToGuess.dutyName);
-            gameIsActive = false;
-            input.disabled = true;
-            guessButton.disabled = true;
-        }, 300);
+        document.getElementById("modalHeader").innerHTML = "Duty Failed! The correct duty for today was: " + dutyToGuess.dutyName;
+        //score chart
+        generateStatChart();
+        modal.style.display = "block";
     }
 }
 
 function displayGameOverScreen(){
     // create a score screen popup
+}
+
+function generateStatChart(){
+    new Chart(resultsChart, {
+        type: "bar",
+        data: {
+            labels: [{
+                label: "# of Guesses",
+                data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                }],
+            datasets: [{
+                label: "# of Wins",
+                data: [userScoresRecord[0], userScoresRecord[1],userScoresRecord[2], userScoresRecord[3], userScoresRecord[4],
+                userScoresRecord[5], userScoresRecord[6], userScoresRecord[7], userScoresRecord[8], userScoresRecord[9], userScoresRecord[10]],
+                borderWidth: 1,
+                backgroundColor: '#1d6ff2',
+                borderColor: '#001f52'
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                },
+                yAxes: [{
+                    ticks: {
+                        precision: 0
+                    }
+                }]
+            }
+        }
+    })
+}
+
+// Close and Open Modal
+span.onclick =  function(){
+    modal.style.display = "none";
+}
+window.onclick = function(event){
+    if(event.target == modal){
+        modal.style.display = "none";
+    }
 }
 
 function generateDutyOfTheDay(){
@@ -79,11 +145,9 @@ function generateDutyOfTheDay(){
     var length = (randomNumber + '').replace('.', '').length;
     //multiply float randomNumber by 10^x where x is the number of digits minus one, this converts the number to a integer
     randomNumber = randomNumber*Math.pow(10, length-1)
-    console.log(randomNumber)
     let dutyNumber = randomNumber%dutyList.length
-    console.log(dutyNumber)
-    console.log(dutyList[dutyNumber].dutyName);
-    return Math.floor(dutyNumber);
+    dutyNumber = Math.round(dutyNumber);
+    return dutyNumber;
 }
 
 function updateLivesCount(){
@@ -233,6 +297,16 @@ function guess(){
         //assign basic answerCell class to new cells
         cell.classList.add("answerCell");
         cell.innerText = guessedDuty[key];
+        if(key == 'dutyName'){
+            const correctDutyName = dutyToGuess.dutyName;
+            const guessedDutyName = guessedDuty.dutyName;
+            if(correctDutyName == guessedDutyName){
+                cell.classList.add("correctAnswerCell")
+            }else{
+                cell.classList.add("incorrectAnswerCell");
+            }
+            return;
+        }
         if(key == 'instanceType'){
             const correctInstanceType = dutyToGuess.instanceType;
             const guessedInstanceType = guessedDuty.instanceType;
